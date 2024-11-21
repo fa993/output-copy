@@ -28,7 +28,10 @@ cargo install
 
 Installation on Mac:
 
-Pending package publish on homebrew
+```bash
+brew tap fa993/tap
+brew install fa993/tap/ocp
+```
 
 Installation on Linux:
 
@@ -38,7 +41,7 @@ Pending package publish on apt
 
 Just pipe this tool at the end of the command whose output you want to copy
 
-```
+```bash
 #!/bin/bash
 echo "Command Output to be copied" | ocp
 Command Output to be copied

@@ -12,7 +12,7 @@ To build locally:
 
 1. Clone this repository using the following command:
 
-```
+```bash
 #!/bin/bash
 git clone https://github.com/fa993/output-copy
 ```
@@ -21,7 +21,7 @@ git clone https://github.com/fa993/output-copy
 
 3. Run this command:
 
-```
+```bash
 #!/bin/bash
 cargo install
 ```

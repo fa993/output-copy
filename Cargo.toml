@@ -7,6 +7,10 @@ description = "A simple command-line output copy tool"
 repository = "https://github.com/fa993/output-copy"
 readme = "README.md"
 
+[[bin]]
+name = "ocp"
+path = "src/main.rs"
+
 [dependencies]
 anyhow = "1.0.93"
 cli-clipboard = "0.4.0"

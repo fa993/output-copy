@@ -2,6 +2,10 @@
 name = "output-copy"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "A simple command-line output copy tool"
+repository = "https://github.com/fa993/output-copy"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1.0.93"
